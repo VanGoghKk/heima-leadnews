@@ -45,6 +45,7 @@ public class WmUserServiceImpl extends ServiceImpl<WmUserMapper, WmUser> impleme
             map.put("user",wmUser);
             System.out.println(wmUser);
             System.out.println("gg");
+            System.out.println("hh");
             return ResponseResult.okResult(map);
 
         }else {
