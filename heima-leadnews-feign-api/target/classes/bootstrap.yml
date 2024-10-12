@@ -1,0 +1,5 @@
+ribbon:
+  # 请求处理的超时时间
+  ReadTimeout: 60000
+  # 请求连接的超时时间
+  ConnectTimeout: 60000
