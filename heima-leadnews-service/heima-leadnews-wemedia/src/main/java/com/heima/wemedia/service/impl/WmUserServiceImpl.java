@@ -43,6 +43,7 @@ public class WmUserServiceImpl extends ServiceImpl<WmUserMapper, WmUser> impleme
             wmUser.setSalt("");
             wmUser.setPassword("");
             map.put("user",wmUser);
+            System.out.println(wmUser);
             return ResponseResult.okResult(map);
 
         }else {
